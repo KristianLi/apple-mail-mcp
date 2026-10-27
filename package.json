@@ -1,0 +1,32 @@
+{
+  "name": "apple-mail-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for macOS Mail.app: read, search, organize and draft email across every account in Mail",
+  "keywords": [
+    "mcp",
+    "apple-mail",
+    "macos",
+    "email",
+    "claude"
+  ],
+  "author": "Guokai Li",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^3.25.76"
+  },
+  "bin": {
+    "apple-mail-mcp": "server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "darwin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristianLi/apple-mail-mcp.git"
+  }
+}
